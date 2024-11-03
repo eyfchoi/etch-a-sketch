@@ -9,14 +9,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-start;
+    border: 1px black solid;
+    background-color: #FFFFFF;
 }
 
 .grid {
     display: flex;
-    border: 1px black solid;
-    border-collapse: collapse;
-    min-height:5px;
-    margin: 0 -1px -1px 0;
+    /* border: 1px black solid; */
+    /* border-collapse: collapse; */
+    /* margin: 0 -1px -1px 0; */
+    background-color: black;
+    opacity: 0;
 }
 
 .break {
